@@ -1,0 +1,22 @@
+@import '../node_modules/tailwindcss/base';
+@import '../node_modules/tailwindcss/components';
+@import '../node_modules/tailwindcss/utilities';
+
+/* Estilizando a barra de rolagem vertical */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a833ff; /* Cor do polegar da barra de rolagem */
+  border-radius: 4px; /* Borda do polegar da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a833ff; /* Cor do polegar quando hover */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor do trilho da barra de rolagem */
+  border-radius: 4px; /* Borda do trilho da barra de rolagem */
+}
